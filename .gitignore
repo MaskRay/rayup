@@ -1,0 +1,7 @@
+*.swo
+*.swp
+*.tmp
+*~
+*.old
+*.o
+win32/*

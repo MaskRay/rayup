@@ -1,0 +1,4 @@
+#!/bin/sh
+cmd=tclsh
+[ -f /usr/local/bin/$cmd ] && cmd=/usr/local/bin/$cmd || cmd=/usr/bin/$cmd
+rlwrap $cmd "$@"

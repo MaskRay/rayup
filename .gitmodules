@@ -1,0 +1,18 @@
+[submodule "renrenfeed"]
+	path = renrenfeed
+	url = git@github.com:MaskRay/renrenfeed.git
+[submodule "position-heap"]
+	path = position-heap
+	url = git@github.com:MaskRay/position-heap.git
+[submodule "makefile-blog"]
+	path = makefile-blog
+	url = git@github.com:MaskRay/makefile-blog.git
+[submodule "raybot"]
+	path = raybot
+	url = git@github.com:MaskRay/raybot.git
+[submodule "e-file"]
+	path = e-file
+	url = git@github.com:MaskRay/e-file.git
+[submodule "tieba-cleaner"]
+	path = tieba-cleaner
+	url = git@github.com:MaskRay/tieba-cleaner.git

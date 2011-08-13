@@ -1,0 +1,14 @@
+tic-tac-toe
+===========
+
+Author: MasterRay
+Email: masterray@126.com
+
+GnoBang is licensed under the GNU General Public License Version 3
+(see the COPYING file).
+
+
+Build
+-----
+
+./make

@@ -1,0 +1,2 @@
+#!/bin/sh
+w3m -dump "http://3g.sina.com.cn/prog/wapsite/weather_new/forecast_new.php?city=上海&vt=4" 2>/dev/null | sed '1,/转发至微博/d;/生活指数/,$d;s/\[[^]]\+\]//g'
