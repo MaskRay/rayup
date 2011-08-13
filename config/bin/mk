@@ -1,2 +1,2 @@
 #!/bin/sh
-make "$@" 2>&1 | colormake.pl `tput lines` `tput cols`
+/usr/bin/make "$@" 2>&1 | mtail -q --config ~/bin/ColorMake.mtailrc

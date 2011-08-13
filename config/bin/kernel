@@ -1,0 +1,7 @@
+#!/bin/sh -e
+cd ~/projects/linux-2.6
+[ -n "$1" ] && git pull
+make menuconfig
+sudo make CC=/usr/lib/ccache/bin/cc -j4
+sudo mount /boot
+sudo make install modules_install
